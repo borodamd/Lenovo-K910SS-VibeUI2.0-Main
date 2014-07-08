@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="top|center" android:id="@id/photo_callcard" android:background="@drawable/photo_border_lg" android:padding="21.0dip" android:visibility="invisible" android:layout_width="@dimen/in_call_photo_height" android:layout_height="@dimen/in_call_photo_height" android:scaleType="centerCrop" android:contentDescription="@string/contactPhoto" />
+        <TextView android:textSize="37.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="center" android:id="@id/name_single" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="6.0" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/labelAndNumber_single" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="left" android:id="@id/phoneNumber_single" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="6.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="center" android:id="@id/callStateLabel_single" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="6.0" android:layout_weight="1.0" android:textAllCaps="true" />
+            <TextView android:id="@id/split_view_single" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="center" android:id="@id/elapsedTime_single" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="6.0" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

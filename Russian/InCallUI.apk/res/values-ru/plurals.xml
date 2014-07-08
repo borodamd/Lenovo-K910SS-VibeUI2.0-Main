@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Нет передачи данных %s минут</item>
+        <item quantity="one">Нет передачи данных %s минуту</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Телефон в режиме экстренного перезвона %s минут. В этом режиме приложения не могут использовать передачу данных. Выйти сейчас?</item>
+        <item quantity="one">The Телефон в режиме экстренного перезвона %s минуту. В этом режиме приложения не могут использовать передачу данных. Выйти сейчас?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Данное действие не доступно, пока телефон в режиме экстренного перезвона. Телефон в этотм режиме %s минут. Выйти сейчас</item>
+        <item quantity="one">Данное действие не доступно, пока телефон в режиме экстренного перезвона. Телефон в этотм режиме %s минуту. Выйти сейчас</item>
+    </plurals>
+</resources>

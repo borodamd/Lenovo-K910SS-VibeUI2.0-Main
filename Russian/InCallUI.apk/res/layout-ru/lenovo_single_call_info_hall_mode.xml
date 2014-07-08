@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hall_call_info_single" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.lenovo.incallui.ScrollForeverTextView android:textSize="33.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/name_hall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/labelAndNumber_hall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:id="@id/phoneNumber_hall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+
+                <TextView android:textSize="18.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:id="@id/callfrom_hall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:id="@id/callStateLabel_hall" android:paddingRight="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_weight="1.0" android:textAllCaps="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:id="@id/elapsedTime_hall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hall_call_info_muti" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/hall_muti_call_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/hall_muti_name_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_call_hall_mode" />
+                    <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="right|center" android:id="@id/hall_muti_state_1" android:layout_width="70.0dip" android:layout_height="fill_parent" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/hall_muti_call_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/hall_muti_name_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_hold_hall_mode" />
+                    <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="right|center" android:id="@id/hall_muti_state_2" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/onHold" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/hall_muti_call_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/hall_muti_name_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_hold_hall_mode" />
+                    <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="right|center" android:id="@id/hall_muti_state_3" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/onHold" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/hall_muti_call_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/hall_muti_name_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_hold_hall_mode" />
+                    <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="right|center" android:id="@id/hall_muti_state_4" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/onHold" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/hall_muti_call_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/hall_muti_name_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_hold_hall_mode" />
+                    <TextView android:textColor="@color/incall_call_banner_text_color" android:gravity="right|center" android:id="@id/hall_muti_state_5" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/onHold" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.lenovo.incallui.ScrollForeverTextView android:textSize="12.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/hall_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:singleLine="true" />
+</LinearLayout>

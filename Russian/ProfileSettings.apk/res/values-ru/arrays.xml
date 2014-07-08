@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="silent_mode_entries">
+        <item>“Close</item>
+        <item>Vibration</item>
+        <item>Mute</item>
+    </string-array>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lsr_window_smart_rolled_toast">Окно перевернулось</string>
+    <string name="lsr_window_not_support_smart_rolled_toast">Окно не поддерживает умный переворот</string>
+    <string name="lwt_description_target_back">назад</string>
+    <string name="lwt_description_target_home">домой</string>
+    <string name="lwt_description_target_menu">меню</string>
+    <string name="lwt_description_target_status_bar">панель_уведомлений</string>
+    <string name="dlg_use_ipo_confirm">Быстрая загрузка при следующей загрузке</string>
+    <string name="dlg_ipo_confirm_warning">При быстрой загрузке, система не отключается полностью, поэтому не извлекайте СИМ карту в этом режиме.</string>
+    <string name="storage_sd_card">внешнее хранилище</string>
+    <string name="storage_usb">USB хранилище</string>
+    <string name="storage_phone">внутреннее хранилище</string>
+    <string name="storage_external_usb">Внешнее USB хранилище</string>
+    <string name="ext_storage_internal_notification_title">Подготовка внутреннего хранилища</string>
+    <string name="ext_storage_external_notification_title">Подготовка внешнего хранилища</string>
+    <string name="global_actions_toggle_open_airplane_mode_confirm">Включить режим полета</string>
+    <string name="usb_notification_title">Настройки USB соединения</string>
+    <string name="usb_notification_content">Выберите режим монтирования USB и adb отладки.</string>
+    <string name="default_string">Стандарт</string>
+    <string name="capital_on">ВКЛ</string>
+    <string name="capital_off">ВЫКЛ</string>
+    <string name="kg_forgot_password_button_text">Забыли пароль</string>
+    <string name="msg_shutdown_habit_guess">"Ранее, Вы выключали телефон трижды в это время. 
+Хотите запрограмировать автоматическое включение/выключение телефона ?"</string>
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="reboot_confirm_title">Перезагрузка</string>
+    <string name="reboot_confirm_msg">Ваш телефон будет перезагружен</string>
+    <string name="reboot_dialog_msg">"Нажмите кнопку отключения через ^1 секунд. 
+Продолжайте нажимать 2 секунды для перезагрузки после отключения"</string>
+    <string name="silent_mode_silent">Тихий</string>
+    <string name="silent_mode_vibrate">Вибрация</string>
+    <string name="silent_mode_normal">Основной</string>
+    <string name="silent_mode_outdoor">На улице</string>
+    <string name="powerOnWarning_alarm_msg">Следующий будильник: %1$s</string>
+    <string name="powerOnWarning_boot_msg">Следующее включение: %1$s</string>
+    <string name="long_back_exit_info">выход</string>
+    <string name="prevent_misoperation_title">Режим предотвращения случайных нажатий</string>
+    <string name="prevent_misoperation_message">Не закрывайте верх экрана</string>
+    <string name="prevent_misoperation_quit_hint">Принудительное завершение: нажатие \"Назад\" + \"Громкость выше\" клавиш</string>
+    <string name="captive_portal_dialog_title">Регистрация в WLAN сети</string>
+    <string name="captive_portal_dialog_message">Регистрация необходима для этой сети до доступа в интернет, зарегистрируйтесь</string>
+    <string name="captive_portal_dialog_button">Вход</string>
+    <string name="invalid_wlan_dialog_title">WLAN</string>
+    <string name="invalid_wlan_dialog_message">Проблемы с подключением к интернету, Проверьте текущую сеть или подключитесь к другой сети</string>
+    <string name="invalid_wlan_dialog_button">Подключение к другой сети WLAN</string>
+    <string name="volume_icon_description_ringer">Звонки и сообщения</string>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_incall">Звонок</string>
+    <string name="volume_alarm">Будильник</string>
+    <string name="volume_fm">Радио</string>
+    <string name="volume_matv">Мобильное TV</string>
+    <string name="volume_icon_description_media">Медиа</string>
+    <string name="volume_icon_description_notification">Уведомления</string>
+    <string name="not_support_too_long_string">Слишком длинная строка для поиска</string>
+    <string name="turn_on_mobile_data_warning">"Включить передачу данных, Мобильный телефон использует GPRS данные. 
+За услугу взимаются деньги оператором. Открыть все равно?"</string>
+    <string name="next_time_no_warning">Не предупреждать.</string>
+    <string name="turn_on_data">Вкл</string>
+    <string name="turn_off_data">Выкл</string>
+    <string name="confirm_dialog_title">Подтвердить</string>
+    <string name="keyguard_password_waring_dlg_title">Неверный пароль</string>
+    <string name="keyguard_password_attempts_warning" formatted="false">Вы пытались разблокировать телефон %d раз. Через %d неудачных попыток, телефон сбросится на заводские настройки и данные пользователя будут потеряны.</string>
+    <string name="keyguard_password_waring_dlg_remind">Наберите lenovo и нажмите OK для продолжения.</string>
+    <string name="keyguard_password_dlg_input_err">Ошибки ввода, Попробуйте ещё раз</string>
+    <string name="popup_menu_find">Искать</string>
+    <string name="wifi_display_bt_hdmi_off_wfd_on">Bluetooth будет выключен, когда Вы включите беспроводной дисплей. Продолжить?</string>
+    <string name="component">systemwidget</string>
+    <string name="author">Lenovo author</string>
+    <string name="description">Lenovo default theme</string>
+    <string name="app_name">Classical</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_name">Miracast</string>
+    <string name="app_name">Беспроводной экран</string>
+    <string name="wfd_img_description">wfd изображение</string>
+    <string name="wfd_bn_refresh">Обновить</string>
+    <string name="wfd_bn_help">Помощь</string>
+    <string name="wfd_bn_about">О программе</string>
+    <string name="wfd_bn_clear">Очистить</string>
+    <string name="wfd_bn_disconnect">Разъеденить</string>
+    <string name="wfd_dlg_scan_enable_wifi">Включаю WiFi ...</string>
+    <string name="wfd_dlg_scan_scan_device">Ищу устройства ...</string>
+    <string name="wfd_dlg_scan_reconnecting">Смена режима, Переподключаюсь ...</string>
+    <string name="wfd_dlg_confirm_clear_message">Вы хотите удалить список всех подключенных устройств?</string>
+    <string name="wfd_dlg_rename_title">Переименовать устройство</string>
+    <string name="wfd_dlg_rename_done">Подтвердить</string>
+    <string name="wfd_dlg_rename_forget">Звбыть</string>
+    <string name="wfd_dlg_info_reconnect_fail">Переподключение не удалось. Попробуйте подключиться вручную.</string>
+    <string name="wfd_dlg_confirm_switch_av_message">"Текущее подключение должно быть прервано для переключения режима.
+Переключить сейчас?"</string>
+    <string name="wfd_dlg_confirm_switch_video_message">"В режиме - Только видео, передается только видео.
+Текущее подключение должно быть прервано для переключения режима.
+Переключить сейчас?"</string>
+    <string name="wfd_dlg_confirm_switch_audio_message">"В режиме - Только аудио, передается только аудио.
+Подключение может не состоятся, если устройстно не поддержтвает режим - только аудио. Проверьте это перед подключением.
+Текущее подключение должно быть прервано для переключения режима.
+Переключить сейчас?"</string>
+    <string name="toast_connecting">Подключаюсь, попробуйте позже</string>
+    <string name="toast_already_connected">Другое устройство подключено, сначала отключитесь</string>
+    <string name="toast_device_not_available">Не могу подключиться, устройство не доступно</string>
+    <string name="welcome_version">Версия %1s</string>
+    <string name="tutor_message_1">Подключите AllShare Cast dongle в HDMI порт устройства используя HDMI A-TO-A кабель.</string>
+    <string name="tutor_message_2">Когда замигает красный индикатор, нажмите кнопку Reset. Дождитесь, пока индикатор загорится синим. При переподключении, ничего нажимать не нужно.</string>
+    <string name="tutor_message_3">Включите зеркалирование экрана используя это приложение. Имя AllShare Cast dongle будет отображено в приложении.</string>
+    <string name="tutor_message_4">Если успешно подключено, Вы можете показывать свой экран на других устройствах.</string>
+    <string name="tutor_message_audioonly">Если вывод аудио поддерживается устройством, Вы можете попробовать режим - Только аудио, чтобы слушать музыку через WiFi.</string>
+    <string name="tutor_message_videoonly">Если Вы хотите подключить устройство через DVI или VGA интерфейс, рекомендуется режим - Только видео.</string>
+</resources>

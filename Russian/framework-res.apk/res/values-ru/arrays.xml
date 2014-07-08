@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Личный</item>
+        <item>Рабочий</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Рабочий</item>
+        <item>Другое</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Домашний</item>
+        <item>Мобильный</item>
+        <item>Рабочий</item>
+        <item>Рабочий факс</item>
+        <item>Домашний факс</item>
+        <item>Пейджер</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Домашний</item>
+        <item>Рабочий</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка использовать вибрацию</item>
+        <item>Попытка чтения контактов</item>
+        <item>Попытка изменения контактов</item>
+        <item>Попытка чтения журнала звонков</item>
+        <item>Попытка изменения журнала звонков</item>
+        <item>Попытка чтения календаря</item>
+        <item>Попытка изменения календаря</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка отправки уведомления</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка</item>
+        <item>Попытка чтения SMS</item>
+        <item>Попытка записи/modify SMS</item>
+        <item>Попытка получения SMS</item>
+        <item>Попытка получения SMS</item>
+        <item>Попытка получения SMS</item>
+        <item>Попытка получения SMS</item>
+        <item>Попытка отправки SMS</item>
+        <item>Попытка чтения SMS</item>
+        <item>Попытка записи/изменения SMS</item>
+        <item>Попытка изменения параметров</item>
+        <item>Попытка повышения</item>
+        <item>Попытка доступа к уведомлениям</item>
+        <item>Попытка доступа к камере</item>
+        <item>Попытка записать аудио</item>
+        <item>Попытка проиграть аудио</item>
+        <item>Попытка чтения буфера</item>
+        <item>Попытка изменения буфера</item>
+        <item>Попытка использования медиа кнопок</item>
+        <item>Попытка фокуса аудио</item>
+        <item>Попытка использования основной громкости</item>
+        <item>Попытка использования громкости голоса</item>
+        <item>Попытка использования громкости звонка</item>
+        <item>Попытка использования громкости медии</item>
+        <item>Попытка использования громкости будильника</item>
+        <item>Попытка использования громкости уведомлений</item>
+        <item>Попытка использования громкости bluetooth</item>
+        <item>Попытка удержать устройство включенным</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка доступа к расположению</item>
+        <item>Попытка вкл/выкл Wifi</item>
+        <item>Попытка вкл/выкл bluetooth</item>
+        <item>Попытка вкл/выкл данные</item>
+        <item>Попытка отправки MMS</item>
+        <item>Попытка чтения MMS</item>
+        <item>Попытка записи MMS</item>
+        <item>Попытка запустить при загрузке</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Домашний</item>
+        <item>Рабочий</item>
+        <item>Другое</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+</resources>

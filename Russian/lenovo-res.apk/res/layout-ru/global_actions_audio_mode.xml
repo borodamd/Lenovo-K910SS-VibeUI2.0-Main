@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="76.0dip" android:minHeight="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/audio_option1" android:tag="mtk_audioprofile_silent" android:focusable="true" android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/global_audio_profile_text" android:gravity="center" android:layout_gravity="center" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:duplicateParentState="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:text="@string/silent_mode_silent" android:drawableTop="@drawable/audioprofile_mute" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/audio_option2" android:tag="mtk_audioprofile_meeting" android:focusable="true" android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/global_audio_profile_text" android:gravity="center" android:layout_gravity="center" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:duplicateParentState="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:text="@string/silent_mode_vibrate" android:drawableTop="@drawable/audioprofile_vibrate" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/audio_option3" android:tag="mtk_audioprofile_general" android:focusable="true" android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/global_audio_profile_text" android:gravity="center" android:layout_gravity="center" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:duplicateParentState="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:text="@string/silent_mode_normal" android:drawableTop="@drawable/audioprofile_general" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/audio_option4" android:tag="mtk_audioprofile_outdoor" android:focusable="true" android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0dip" android:textColor="@color/global_audio_profile_text" android:gravity="center" android:layout_gravity="center" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:duplicateParentState="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:text="@string/silent_mode_outdoor" android:drawableTop="@drawable/audioprofile_outdoor" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="fill_parent" />
+</LinearLayout>
