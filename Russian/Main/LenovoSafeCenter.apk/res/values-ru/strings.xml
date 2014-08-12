@@ -1112,6 +1112,9 @@ Liu Yongfeng, Dong Chunyan, Ruan Jingchun, Zhang Cheng, Li Gan, Yang Dapeng, Wu 
     <string name="traffic_carry_tel">China Telecom</string>
     <string name="traffic_no_sim">Нет SIM-карты</string>
     <string name="traffic_no_plan_set">Настроить</string>
+    <string name="permission_allow">Разрешить</string>
+    <string name="permission_deny">Запретить</string>
+    <string name="permission_notify">Уведомить</string>
     <string name="permission_log_forbid">Запретить для</string>
     <string name="allow_all_tip">Разрешить всем приложениям может вызвать угрозу безопасности. Вы уверенны, что хотите сделать это?</string>
     <string name="allow_total">Разрешено</string>
@@ -1310,6 +1313,20 @@ Liu Yongfeng, Dong Chunyan, Ruan Jingchun, Zhang Cheng, Li Gan, Yang Dapeng, Wu 
     <string name="install_intercept_installed_result_failed">Время ожидания для установки %s закончилось, попробуйте еще раз</string>
     <string name="default_app_name">Неизвестное Имя</string>
     <string name="permission_records_when_calling">При звонке</string>
+	
+   <string name="permission_dialog_never_notice">Не спрашивать</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_known">OK, Я знаю</string>
+    <string name="permission_cancel">Отмена</string>
+    <string name="permission_is_update_lab_text">Обновить сейчас?</string>
+    <string name="permission_forbid">Запретить</string>
+    <string name="permission_no_null_limit_input_num_text">Не возможно ввести пустой текст</string>
+    <string name="permission_no_zero_limit_input_num_text">План данных не может быть 0</string>
+    <string name="permission_hour_text">часов</string>
+    <string name="permission_minute">минут</string>
+    <string name="permission_failed_to_inject">Не возможно запустить службу мониторинга, Необходимо перезапустить телефон</string>
+    <string name="permission_failed_to_inject_part_so">Не возможно загрузить службу мониторинга, Необходимо перезапустить телефон</string>
+	
     <string name="perm_c_location">Получение информации о местоположении</string>
     <string name="perm_record">Запись</string>
     <string name="perm_camera">Использование камеры</string>
