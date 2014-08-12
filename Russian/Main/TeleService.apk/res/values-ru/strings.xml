@@ -13,7 +13,14 @@
     <string name="phone_recorder_path">Накопитель для записи аудио</string>
     <string name="phone_recorder_save_failed">Невозможно записать аудио</string>
     <string name="phone_recorder_start_failed">Невозможно начать запись аудио</string>
-    <string name="redial_for_click">Нажмите для автоматического перезвона</string>
+    <string name="voice_record_save_notifi_msg">Разговор был записан</string>
+    <string name="str_db_playlist_name">Мои записи</string>
+    <string name="confirm_save_info_saved_to">Разговор был записан в</string>
+    <string name="confirm_save_info_saved">Разговор был записан в папку с аудио.</string>
+    <string name="voice_record_save_content_text">Нажмите для перехода</string>
+    <string name="error_sdcard_access">Нет доступа к SD карте</string>
+    <string name="alert_device_error">Ошибка аудио устройства</string>	
+	<string name="redial_for_click">Нажмите для автоматического перезвона</string>
     <string name="redial_for_title_now">Ьудет автоматический перезвон</string>
     <string name="redial_for_title_minute">%d минут</string>
     <string name="redial_for_title_second">" и %d секунд"</string>

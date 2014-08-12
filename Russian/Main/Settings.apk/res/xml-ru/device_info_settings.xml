@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </Preference>
+    <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/china_telcom_push_title" android:key="yi_push_service" android:summary="@string/china_telcom_push_summary" />
+    <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/legal_information" android:key="container">
+        <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.COPYRIGHT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.LICENSE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/lenovo_preference_k7" android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="android.settings.SAFETY" />
+    </PreferenceScreen>
+    <com.android.settings.RegulatoryInfoPreference android:layout="@layout/lenovo_preference_k7" android:title="@string/regulatory_information" android:key="regulatory_info" />
+        <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/version_info" android:key="version_info_key" android:fragment="com.android.settings.VersionInfo" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" style="?android:preferenceInformationStyle" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/phone_info" android:key="phone_info_key" />
+    <Preference android:layout="@layout/lenovo_preference_k7" android:title="@string/safety_information" android:key="security_information" />
+    
+</PreferenceScreen>

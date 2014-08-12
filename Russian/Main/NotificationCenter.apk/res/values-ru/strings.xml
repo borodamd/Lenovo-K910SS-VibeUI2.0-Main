@@ -139,9 +139,8 @@
     <string name="lockscreen_sim_puk_locked_message">SIM карта заблокирована по PUK.</string>
     <string name="lockscreen_sim_locked_message">SIM/RUIM карта заблокирована.</string>
     <string name="state_open">Открыть</string>
-	<string name="widget_text_notification_setting">Уведомления</string>
+    <string name="widget_text_notification_setting">Уведомления</string>
     <string name="lenovo_charge_quick_change_to_normal">Переключить быструю зарядку на нормальную...</string>
-
     <string name="widget_text_free_call">Бесплатный звонок</string>
     <string name="lenovo_recent_page_title">Последние</string>
     <string name="lenovo_quickpanel_page_title">Избранное</string>
@@ -152,10 +151,37 @@
     <string name="expand_todayview_notificationbar_content">Показ сегодняшних задач при помощи двух пальцев</string>
     <string name="todayview_notificationbar_content_nothing">Вы не настроили повестку дня!</string>
     <string name="todayview_notificationbar_summary">Показывать уведомления о сегодняшних задачах</string>
-	
-	
     <string name="twelve_hour_time_format">h:mm a</string>
     <string name="twenty_four_hour_time_format">HH:mm</string>
+
+    <string name="widget_text_more">Ещё</string>
+    <string name="lenovo_statusbar_switch_brightness_auto_textview_text">Авто</string>
+    <string name="battery_remain_level">Дамп энергии</string>
+    <string name="is_charging_for_other_device">Зарядка других устройств</string>
+    <string name="widget_text_reboot">Перезагрузка</string>
+    <string name="widget_text_shutdown">Выключение</string>
+    <string name="widget_text_nfc">NFC</string>
+    <string name="widget_text_intelligence_bright">Умная подсветка</string>
+    <string name="dlg_batteryWarehouse_msg_stop_charge">Зарядка уже остановлена</string>
+    <string name="dlg_batteryWarehouse_msg_start_charge">Зарядка уже начата</string>
+    <string name="batteryWarehouse_notificaton_content_charge_time_begin">Время зарядки:%s</string>
+    <string name="lenovo_custom_switch_brightness_title">Показать слайдер яркости</string>
+    <string name="lenovo_quick_panel_all_app_dialog_title">Выберите избранные приложения</string>
+    <string name="lenovo_quick_panel_all_app_dialog_loading_msg">Загрузка...</string>
+    <string name="freedial_mode_open">Режим свободного набора: Включен</string>
+    <string name="freedial_mode_describtion">Свободный набор: Вы можете звонить не косаясь телефона</string>
+    <string name="lenovo_clock_middle_night">ДП</string>
+    <string name="lenovo_clock_before_dawn">ДП</string>
+    <string name="lenovo_clock_morning">ДП</string>
+    <string name="lenovo_clock_am">ДП</string>
+    <string name="lenovo_clock_noon">ПП</string>
+    <string name="lenovo_clock_after_noon">ПП</string>
+    <string name="lenovo_clock_dusk">ПП</string>
+    <string name="lenovo_clock_night">ПП</string>
+    <string name="lenovo_clock_deep_night">ПП</string>
+    <string name="lenovo_brightness_adjust_bar_message">Ручная настройка яркости, Используйте слайдер для изменения</string>
+    <string name="widget_text_mobile_data_choose">Выбор данных</string>
+    <string name="selecte_default_data_card_message">Выберите карточку данных по умолчанию</string>
     <string name="gemini_default_sim_always_ask">Всегда спрашивать</string>
     <string name="accessibility_phone_four_bars">4 деленя телефона.</string>
     <string name="sim_switch_tip">Эта SIM назначена основной SIM картой для %s. Удерживайте и потяните вниз панель уведомлений для смены основной SIM карты.</string>
@@ -549,6 +575,7 @@
     <string name="lenovo_status_bar_phone_going">Звоню. Нажмите для возврата</string>
     <string name="lenovo_status_bar_car_mode_going">Режим авто. Ведите осторожно</string>
     <string name="lenovo_status_bar_sound_recorder_going">Пишу. Нажмите для возврата</string>
+	<string name="lenovo_status_bar_flashlight">Выключить фонарик</string>	
     <string name="turn_on_mobile_data_warning">Включение передачи данных. Телефон использует GPRS данные. За это оператором может взиматься дополнительная плата. Все равно открыть?</string>
     <string name="next_time_no_warning">Не предупреждать.</string>
     <string name="turn_on_data">Вкл</string>
@@ -580,7 +607,7 @@
     <string name="widget_text_power_saving_custom">Питание Lenovo</string>
     <string name="widget_text_shake_unlock">Трясти блок</string>
     <string name="widget_text_smart_roll">Пов.</string>
-    <string name="widget_text_wide_touch">Пан. ярлыков</string>
+    <string name="widget_text_wide_touch">Ярлыки</string>
     <string name="widget_text_user_feedback">Отзыв</string>
     <string name="widget_text_energy_save">Экстренно</string>
     <string name="widget_text_dolby">Долби</string>
