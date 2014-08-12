@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_p2p_status">
+        <item>Подключен</item>
+        <item>Приглашен</item>
+        <item>Не успешно</item>
+        <item>Достурен</item>
+        <item>Вне диапазона</item>
+    </string-array>
+</resources>
