@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lockscreen_targets_when_silent">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_soundon</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_when_silent">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_soundon</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="lockscreen_targets_when_soundon">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_silent</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_when_soundon">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_silent</item>
+        <item>@null</item>
+    </string-array>
+    <array name="lockscreen_targets_with_camera">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_camera</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_with_camera">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_camera</item>
+        <item>@null</item>
+    </string-array>
+    <array name="lockscreen_targets_unlock_only">
+        <item>@drawable/ic_lockscreen_unlock</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_unlock_only">
+        <item>@string/description_target_unlock</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item></item>
+        <item></item>
+        <item>АБВГ</item>
+        <item>ДЕЁЖЗ</item>
+        <item>ИЙКЛ</item>
+        <item>МНОП</item>
+        <item>РСТУ</item>
+        <item>ФХЦЧ</item>
+        <item>ШЩЪЫ</item>
+        <item>ЬЭЮЯ</item>
+    </string-array>
+    <array name="ct_time_time_num">
+        <item>@drawable/lenovo_ct_time_time_0</item>
+        <item>@drawable/lenovo_ct_time_time_1</item>
+        <item>@drawable/lenovo_ct_time_time_2</item>
+        <item>@drawable/lenovo_ct_time_time_3</item>
+        <item>@drawable/lenovo_ct_time_time_4</item>
+        <item>@drawable/lenovo_ct_time_time_5</item>
+        <item>@drawable/lenovo_ct_time_time_6</item>
+        <item>@drawable/lenovo_ct_time_time_7</item>
+        <item>@drawable/lenovo_ct_time_time_8</item>
+        <item>@drawable/lenovo_ct_time_time_9</item>
+    </array>
+    <array name="ct_time_small_time_num">
+        <item>@drawable/lenovo_ct_time_time_small_0</item>
+        <item>@drawable/lenovo_ct_time_time_small_1</item>
+        <item>@drawable/lenovo_ct_time_time_small_2</item>
+        <item>@drawable/lenovo_ct_time_time_small_3</item>
+        <item>@drawable/lenovo_ct_time_time_small_4</item>
+        <item>@drawable/lenovo_ct_time_time_small_5</item>
+        <item>@drawable/lenovo_ct_time_time_small_6</item>
+        <item>@drawable/lenovo_ct_time_time_small_7</item>
+        <item>@drawable/lenovo_ct_time_time_small_8</item>
+        <item>@drawable/lenovo_ct_time_time_small_9</item>
+    </array>
+    <array name="ct_tv_time_num">
+        <item>@drawable/lenovo_ct_tv_time_0</item>
+        <item>@drawable/lenovo_ct_tv_time_1</item>
+        <item>@drawable/lenovo_ct_tv_time_2</item>
+        <item>@drawable/lenovo_ct_tv_time_3</item>
+        <item>@drawable/lenovo_ct_tv_time_4</item>
+        <item>@drawable/lenovo_ct_tv_time_5</item>
+        <item>@drawable/lenovo_ct_tv_time_6</item>
+        <item>@drawable/lenovo_ct_tv_time_7</item>
+        <item>@drawable/lenovo_ct_tv_time_8</item>
+        <item>@drawable/lenovo_ct_tv_time_9</item>
+    </array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Сразу</item>
+        <item>5 секунд</item>
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минут</item>
+        <item>2 минут</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="lock_after_timeout_values">
+        <item>0</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+</resources>

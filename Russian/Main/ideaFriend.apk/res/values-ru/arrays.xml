@@ -516,8 +516,8 @@
         <item>Пианино</item>
     </string-array>
     <string-array name="photo_display_settings_styles">
-        <item>Первое письмо</item>
-        <item>Последнее письмо</item>
+        <item>Первые буквы</item>
+        <item>Последние буквы</item>
     </string-array>
     <string-array name="callog_display_style_value">
         <item>По дате</item>
