@@ -80,6 +80,17 @@
     <string name="voicemail_settings_for">Настройки для %s</string>
     <string name="msg_calling">Новый входящий звонок от,%s</string>
     <string name="unknown_caller">Не известный контакт</string>
+	<string name="auto_start_record_label">Авто запись</string>
+    <string name="auto_record_setting_title">Авто запись</string>
+    <string name="auto_record_setting_summer">Включает автоматическиую запись при ответе на звонок</string>
+    <string name="auto_record_setting_actionbar_tile">Настройки авто записи</string>
+    <string name="auto_record_setting_OnOrOff_tile">Переключатель авто записи</string>
+    <string name="auto_record_setting_contact">Записывать звонки</string>
+    <string name="auto_record_contact1">Всех</string>
+    <string name="auto_record_contact2">Из списка контактов</string>
+    <string name="auto_record_contact3">Неизвестных</string>
+    <string name="incall_error_cant_dial_when_dsds">Вызов не удался, Невозможно позвонить, когда карта используется.</string>
+    <string name="fdnListLabel_empty">Список FDN пуст.</string>
     <string name="card_title_unconditionalCF">Некондиционное перенаправление вызовов включено</string>
     <string name="card_title_calliswaiting">Ожидание звонка</string>
     <string name="card_title_forwarded_MTcall">Перенаправленный входящий вызов</string>
