@@ -935,7 +935,7 @@ We recommend that you use the \"Select automatically\", or you can manually sele
     <string name="description_search_button">search</string>
     <string name="cipher_indication_notification_title">No voice encryption</string>
     <string name="cipher_indication_notification_message">Voice encryption is switched off by network</string>
-    <string name="network_type">Network type</string>
+    <string name="network_type">Тип сети</string>
     <string name="network_type_2g">2G</string>
     <string name="network_type_3g">3G</string>
     <string name="network_type_4g">4G</string>
