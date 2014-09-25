@@ -126,7 +126,6 @@
     <string name="sim_not_available">SIM карта недоступна</string>
     <string name="never_timeout">Никогда не выключать</string>
     <string name="simple_settings">Руководство начинающего</string>
-    <string name="version_info">Информация о версии</string>
     <string name="ota_title">Обновление системы</string>
     <string name="products_version">Модель.</string>
     <string name="hardware_version">Версия Hardware</string>
@@ -1695,8 +1694,8 @@
     <string name="accessibility_screen_magnification_summary">"Эта функция позволяет увеличивать и уменьшать изображение, трижды нажав на экран.
 
 При увеличенном масштабе можно:
-"<li><ul>"панорамировать – проведите пальцами по экрану;
-"<li>изменять масштаб – сведите или разведите пальцы.</li></ul></li>"
+"<ul><li>"панорамировать – проведите пальцами по экрану;
+"<li>изменять масштаб – сведите или разведите пальцы.</li></li></ul>"
 
 Чтобы временно увеличить изображение под пальцем, трижды нажмите на экран и удерживайте его. Проведя пальцем, вы можете посмотреть на другие области экрана. Чтобы вернуть экран в прежнее состояние, уберите палец.
 
@@ -2231,6 +2230,7 @@
     <string name="cell_broadcast_settings">Широковещательная передача сообщений</string>
     <string name="server_lenovo_exp_summery">Сбор данных для улучшения наших продуктов и услуг. Некоторые приложения могут использовать сеть и генерировать трафик.</string>
     <string name="user_dict_single_settings_title">Пользовательский словарь</string>
+    <string name="version_info">Информация о версии</string>
     <string name="settings_label_cn">设置</string>
     <string name="wifi_settings_cn">Wi-Fi</string>
     <string name="bluetooth_settings_title_cn">蓝牙</string>

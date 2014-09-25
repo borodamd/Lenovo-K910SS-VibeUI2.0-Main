@@ -625,9 +625,9 @@
         <item>Всегда разрешать</item>
     </string-array>
     <string-array name="multi_sim_entries">
-        <item>Подписка 1</item>
-        <item>Подписка 2</item>
-        <item>Подписка 3</item>
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>SIM 3</item>
     </string-array>
     <string-array name="softspacename">
         <item>По выбору системы</item>

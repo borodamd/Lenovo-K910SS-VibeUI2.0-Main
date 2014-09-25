@@ -107,4 +107,6 @@
     <string name="set_default_phone_ringtone">Настройка мелодии звонка</string>
     <string name="set_default_message_ringtone">Настройка звука сообщений</string>
     <string name="message">Сообщения</string>
+	<string name="sms_notification_title1">Звук сообщения для SIM 1</string>
+    <string name="sms_notification_title2">Звук сообщения для SIM 2</string>
 </resources>

@@ -691,7 +691,7 @@ Try again or call customer service for more options."</string>
     <string name="vt_menu_hide_me">Убрать локальное видео</string>
     <string name="vt_menu_show_me">Показать локальное видео</string>
     <string name="vt_menu_snapshot">Снимок собеседника</string>
-    <string name="vt_dis_peer_rep">Показать видео собеседника
+    <string name="vt_dis_peer_rep">Показать видео собеседника</string>
     <string name="vt_dis_peer_rep_des">Изображение для замены видео собеседника, когда оно не доступно.</string>
     <string name="vt_peer_video_rep">Замена видео собеседника</string>
     <string name="vt_peer_video_rep_des">Выберите изображение для замены видео собеседника, когда оно не доступно</string>
